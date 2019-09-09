@@ -2,7 +2,7 @@ DROP TABLE IF EXISTS users;
 
 CREATE TABLE users (
 
-  user_id                        INT(32)      NOT NULL AUTO_INCREMENT,
+  user_id                        INT(50)      NOT NULL AUTO_INCREMENT,
 
   user_name                      VARCHAR(50)  NOT NULL,
 
